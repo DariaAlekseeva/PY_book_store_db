@@ -29,11 +29,7 @@ def menu():
 
         user_input = input(USER_CHOICE)
 
-    # if user chooses q
-    save = input('Would you like to save your book list? (y/n): ')
-    if save == 'y':
-        database.save_list()
-        print('Your book list has been saved!')
+    print('Quitting the program!')
 
 
 # adds new book
